@@ -11,7 +11,7 @@ It is built, not hand-written, from three open sources, and every step is reprod
 | File | What it is |
 | --- | --- |
 | `lexicon.json` | One record per lemma (below). |
-| `lexicon.csv` | The same, flat: `lemma, pos, pos_source, stem, level, wikipedia_rank, tekstaro_rank, gloss, form_of, parts`. |
+| `lexicon.csv` | The same, flat: `lemma, pos, pos_source, stem, level, wikipedia_rank, tekstaro_rank, gloss, form_of, parts`. **Spreadsheet-safe:** a cell that starts with `=`, `+`, `-`, `@`, a tab or a line break gets a leading apostrophe so a spreadsheet cannot run it as a formula (9 cells today, all affixes such as `'-ebla + -i`). Use the JSON for exact values. |
 | `affixes.json` | 123 prefixes, suffixes and infixes with the number of lemmas using each and their usual gloss. |
 | `stats.json` | Counts and coverage of this build. |
 | `sources.json` | Where each input came from, when, and its SHA-256. |

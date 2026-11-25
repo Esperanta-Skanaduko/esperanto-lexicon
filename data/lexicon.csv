@@ -108,7 +108,7 @@ ilia,det,wiktionary,ilia,1,176,81,"Their, theirs",,ili + -a
 diversa,adj,wiktionary,divers,1,116,179,various,,
 troviĝi,verb,wiktionary,troviĝ,1,71,180,to be found,,trovi + -iĝi
 vorto,noun,wiktionary,vort,1,181,111,word (a small group of letters or sounds that can express meaning by itself),,
-mem,particle,wiktionary,mem,1,183,93,"-self, -selves",,
+mem,particle,wiktionary,mem,1,183,93,"'-self, -selves",,
 tra,prep,wiktionary,tra,1,135,183,through,,
 ŝtato,noun,wiktionary,ŝtat,1,184,155,"A state (an organized political community, living under a government, may be sovereign or not).",,
 mondo,noun,wiktionary,mond,1,185,102,world (the earth),,
@@ -315,7 +315,7 @@ monda,adj,wiktionary,mond,2,534,348,of or relating to the world,,mondo + -a
 des,particle,wiktionary,des,2,536,408,the; used with ju and either pli (“more”) or malpli (“less”) to form the second half of a coordinated comparative.,,
 strato,noun,wiktionary,strat,2,541,481,street,,
 konduki,verb,wiktionary,konduk,2,542,407,"to lead, to conduct",,
-ebli,verb,wiktionary,ebl,2,543,315,to be possible,,-ebla + -i
+ebli,verb,wiktionary,ebl,2,543,315,to be possible,,'-ebla + -i
 novembro,noun,wiktionary,novembr,2,329,545,November (eleventh month of the Gregorian calendar),,
 junio,noun,wiktionary,juni,2,308,546,June (sixth month of the Gregorian calendar).,,
 centro,noun,wiktionary,centr,2,161,548,"center (US), centre (UK)",,
@@ -360,7 +360,7 @@ voli,verb,wiktionary,vol,2,619,83,"to wish, to want",,
 kaŭzi,verb,wiktionary,kaŭz,2,620,532,to cause,,
 dek,num,wiktionary,dek,2,621,281,ten (10),,
 scienco,noun,wiktionary,scienc,2,431,622,science,,
-eta,adj,wiktionary,et,2,623,449,"tiny, little, minuscule, slight (see -et-)",,-et- + -a
+eta,adj,wiktionary,et,2,623,449,"tiny, little, minuscule, slight (see -et-)",,'-et- + -a
 ekstera,adj,wiktionary,ekster,2,272,626,"exterior, external, outer",,ekster + -a
 for,adv,wiktionary,for,2,628,490,"away, far, gone",,
 komenciĝi,verb,wiktionary,komenciĝ,2,558,628,"to start, begin",,komenci + -iĝi
@@ -502,7 +502,7 @@ orienta,adj,wiktionary,orient,2,209,820,"east, eastern",,
 proponi,verb,wiktionary,propon,2,823,364,to propose,,
 gvidi,verb,wiktionary,gvid,2,695,824,"to guide, to lead",,
 suferi,verb,wiktionary,sufer,2,824,678,"to endure, to bear, to put up with, to suffer, to sustain",,
-ege,adv,wiktionary,eg,2,825,701,"extremely, immensely, greatly",,-eg- + -e
+ege,adv,wiktionary,eg,2,825,701,"extremely, immensely, greatly",,'-eg- + -e
 plano,noun,wiktionary,plan,2,826,681,"plan, design, scheme, diagram",,
 rivero,noun,wiktionary,river,2,99,827,river,,
 naturo,noun,wiktionary,natur,2,828,821,nature (the natural world and its order),,
@@ -2780,7 +2780,7 @@ tumulto,noun,wiktionary,tumult,4,4171,3679,"tumult, commotion",,
 civilizo,noun,wiktionary,civiliz,4,2835,4172,civilization,,
 establi,verb,wiktionary,establ,4,1162,4173,to establish,,
 feliĉa,adj,wiktionary,feliĉ,4,4173,782,"full of well-being, happy",,
-ina,adj,wiktionary,in,4,1896,4174,"female, feminine",,-ino + -a
+ina,adj,wiktionary,in,4,1896,4174,"female, feminine",,'-ino + -a
 kristanismo,noun,wiktionary,kristanism,4,1443,4175,Christianity,,Kristo + -ano + -ismo
 malsanulejo,noun,wiktionary,malsanulej,4,2667,4177,hospital,,malsanulo + -ejo
 Nov-Zelando,name,wiktionary,nov-zeland,4,3541,4179,"New Zealand (a country and archipelago of Oceania, to the east of Australia)",,nov- + Zelando + New Zealand
@@ -2845,7 +2845,7 @@ inaŭguro,noun,wiktionary,inaŭgur,4,4272,3367,inauguration,,inaŭguri + -o
 nove,adv,wiktionary,nov,4,2448,4272,newly,,
 pinta,adj,wiktionary,pint,4,3148,4273,peaked,,pinto + -a
 batalanto,noun,wiktionary,batalant,4,4274,2514,"fighter, combatant",,batali + -ant- + -o
-emo,noun,wiktionary,em,4,4275,2217,"tendency, inclination",,-ema + -o
+emo,noun,wiktionary,em,4,4275,2217,"tendency, inclination",,'-ema + -o
 reĝisoro,noun,wiktionary,reĝisor,4,996,4275,director,,
 firma,adj,wiktionary,firm,4,4277,2201,"firm (solid, fixed, or steadfast)",,
 fonduso,noun,ending,fondus,4,4278,1810,,,
@@ -3967,7 +3967,7 @@ unuavice,adv,wiktionary,unuavic,5,6033,2499,primarily,,unua + vico + -e
 kinejo,noun,wiktionary,kinej,5,4168,6034,"cinema, movie theatre",,kino + -ejo
 konvinko,noun,wiktionary,konvink,5,6038,2567,belief,,konvinki + -o
 skatolo,noun,wiktionary,skatol,5,6040,3180,"box, container",,
-ega,adj,wiktionary,eg,5,6042,4238,"extreme, great",,-eg- + -a
+ega,adj,wiktionary,eg,5,6042,4238,"extreme, great",,'-eg- + -a
 ludado,noun,ending,ludad,5,3525,6042,,,
 metropolo,noun,wiktionary,metropol,5,3425,6043,metropolis,,
 mirindaĵo,noun,wiktionary,mirindaĵ,5,6046,5069,marvel,,mirinda + -aĵo
@@ -5421,7 +5421,7 @@ nekapabla,adj,ending,nekapabl,5,8347,3878,,,
 strateto,noun,wiktionary,stratet,5,8352,4603,alley,,strato + -et-
 fotisto,noun,wiktionary,fotist,5,4258,8353,photographer,,foti + -isto
 trad,,,trad,5,8353,4445,,,
-ade,adv,wiktionary,ad,5,8354,7813,"continually, permanently, consistently",,-ad- + -e
+ade,adv,wiktionary,ad,5,8354,7813,"continually, permanently, consistently",,'-ad- + -e
 drasta,adj,wiktionary,drast,5,8355,5646,drastic,,
 hordeo,noun,wiktionary,horde,5,7121,8356,barley,,
 ikono,noun,wiktionary,ikon,5,5079,8357,"icon (image, symbol)",,
@@ -12189,7 +12189,7 @@ etrusko,noun,wiktionary,etrusk,7,14768,,Etruscan,,
 etskala,adj,ending,etskal,7,,10263,,,
 etŝpura,adj,ending,etŝpur,7,13889,,,,
 etulino,noun,ending,etulin,7,,13279,,,
-etulo,noun,wiktionary,etul,7,,4744,"little one, young child",,-et- + -ulo
+etulo,noun,wiktionary,etul,7,,4744,"little one, young child",,'-et- + -ulo
 eŭfemismo,noun,wiktionary,eŭfemism,7,,12487,euphemism,,
 eŭforio,noun,wiktionary,eŭfori,7,,14563,euphoria (feeling of intense happiness),,
 eŭkalipto,noun,wiktionary,eŭkalipt,7,11508,,eucalyptus,,

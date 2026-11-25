@@ -119,6 +119,27 @@ test('buildRecord joins ranks, level, senses and parts, and marks a guessed part
   assert.deepEqual([guessed.pos, guessed.posSource, guessed.senses.length, guessed.level], ['noun', 'ending', 0, 3]);
 });
 
+test('toCsv neutralises cells a spreadsheet would run as a formula (CSV injection)', () => {
+  const hostile = [
+    ['=HYPERLINK("http://evil.example","x")', '\'=HYPERLINK("http://evil.example","x")'],
+    ['+1+1', "'+1+1"],
+    ['@SUM(A1)', "'@SUM(A1)"],
+    ['-2+3', "'-2+3"],
+    ['\tcmd', "'\tcmd"],
+  ];
+  for (const [gloss, expected] of hostile) {
+    const record = { lemma: 'x', pos: 'noun', posSource: 'wiktionary', stem: 'x', level: 1, wikipediaRank: 1, tekstaroRank: 1, senses: [{ pos: 'noun', glosses: [gloss] }], formOf: null, parts: null };
+    const row = toCsv([record]).split('\n').slice(1).join('\n');
+    const quoted = /[",\n\r]/.test(expected) ? `"${expected.replace(/"/g, '""')}"` : expected;
+    assert.ok(row.includes(quoted), `${JSON.stringify(gloss)} was not neutralised: ${row}`);
+  }
+});
+
+test('toCsv leaves ordinary cells, including a hyphen in the middle, untouched', () => {
+  const csv = toCsv([buildRecord('x', 1, 1, [{ pos: 'noun', senses: [{ glosses: ['well-known (a = b)'] }] }])]);
+  assert.ok(csv.includes(',well-known (a = b),'));
+});
+
 test('toCsv quotes commas, quotes and line breaks', () => {
   const record = buildRecord('x', 1, 1, [{ pos: 'noun', senses: [{ glosses: ['a "b", c\nd'] }] }]);
   const csv = toCsv([record]);
