@@ -1,0 +1,20 @@
+name: Wrong or missing data
+description: A level, gloss, part of speech or breakdown looks wrong.
+labels: ["data"]
+body:
+  - type: input
+    id: lemma
+    attributes: { label: Lemma }
+    validations: { required: true }
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which field
+      options: ["level", "gloss", "pos", "parts", "formOf", "stem", "other"]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what should it be
+      description: "Most data comes from Wiktionary. If the gloss or breakdown is wrong there, fixing the Wiktionary entry fixes it here at the next rebuild; link the entry if you can."
+    validations: { required: true }

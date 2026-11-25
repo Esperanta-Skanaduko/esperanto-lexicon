@@ -1,0 +1,32 @@
+{
+  "name": "esperanto-lexicon",
+  "version": "0.1.0",
+  "description": "An open Esperanto lexicon: 20,000 lemmas graded by frequency in two corpora, with glosses, parts of speech and affix breakdowns from Wiktionary.",
+  "keywords": ["esperanto", "lexicon", "vocabulary", "frequency-list", "dictionary", "wiktionary", "morphology", "dataset"],
+  "license": "MIT AND CC-BY-SA-4.0",
+  "author": {
+    "name": "Victor Williams",
+    "email": "victor.williams.dev@gmail.com",
+    "url": "https://github.com/Vaporjawn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esperanta-Skanaduko/esperanto-lexicon.git"
+  },
+  "homepage": "https://esperantaskanaduko.com/open-source/esperanto-lexicon/",
+  "bugs": "https://github.com/Esperanta-Skanaduko/esperanto-lexicon/issues",
+  "type": "module",
+  "files": ["data", "scripts", "README.md", "LICENSE", "LICENSE-DATA.md", "ATTRIBUTION.md"],
+  "exports": {
+    "./lexicon.json": "./data/lexicon.json",
+    "./affixes.json": "./data/affixes.json",
+    "./lexicon.csv": "./data/lexicon.csv",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "build": "node scripts/build.mjs && node scripts/build-site-data.mjs",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=20" }
+}

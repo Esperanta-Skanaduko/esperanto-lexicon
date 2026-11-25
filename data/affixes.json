@@ -1,0 +1,1551 @@
+[
+ {
+  "affix": "-a",
+  "kind": "suffix",
+  "grammaticalEnding": true,
+  "gloss": "adjective",
+  "lemmaCount": 678,
+  "examples": [
+   "sia",
+   "lia",
+   "unua",
+   "ĝia",
+   "internacia"
+  ]
+ },
+ {
+  "affix": "-o",
+  "kind": "suffix",
+  "grammaticalEnding": true,
+  "gloss": "noun ending",
+  "lemmaCount": 402,
+  "examples": [
+   "tio",
+   "kio",
+   "vivo",
+   "milito",
+   "batalo"
+  ]
+ },
+ {
+  "affix": "-e",
+  "kind": "suffix",
+  "grammaticalEnding": true,
+  "gloss": "-ly",
+  "lemmaCount": 323,
+  "examples": [
+   "tie",
+   "poste",
+   "ekzemple",
+   "same",
+   "multe"
+  ]
+ },
+ {
+  "affix": "mal-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "opposite of",
+  "lemmaCount": 220,
+  "examples": [
+   "malgranda",
+   "malnova",
+   "malpli",
+   "mallonga",
+   "malalta"
+  ]
+ },
+ {
+  "affix": "-igi",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "to cause to be",
+  "lemmaCount": 190,
+  "examples": [
+   "ebligi",
+   "mortigi",
+   "daŭrigi",
+   "starigi",
+   "publikigi"
+  ]
+ },
+ {
+  "affix": "-i",
+  "kind": "suffix",
+  "grammaticalEnding": true,
+  "gloss": "verb",
+  "lemmaCount": 185,
+  "examples": [
+   "okazi",
+   "temi",
+   "morti",
+   "nomi",
+   "sukcesi"
+  ]
+ },
+ {
+  "affix": "-iĝi",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "to become",
+  "lemmaCount": 172,
+  "examples": [
+   "fariĝi",
+   "troviĝi",
+   "naskiĝi",
+   "komenciĝi",
+   "aliĝi"
+  ]
+ },
+ {
+  "affix": "-isto",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "professional",
+  "lemmaCount": 136,
+  "examples": [
+   "esperantisto",
+   "instruisto",
+   "kuracisto",
+   "verkisto",
+   "ĵurnalisto"
+  ]
+ },
+ {
+  "affix": "-eco",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "quality",
+  "lemmaCount": 134,
+  "examples": [
+   "libereco",
+   "graveco",
+   "ebleco",
+   "sendependeco",
+   "sekureco"
+  ]
+ },
+ {
+  "affix": "-aĵo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "substance",
+  "lemmaCount": 122,
+  "examples": [
+   "organizaĵo",
+   "konstruaĵo",
+   "manĝaĵo",
+   "ĉirkaŭaĵo",
+   "nutraĵo"
+  ]
+ },
+ {
+  "affix": "-ulo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "person",
+  "lemmaCount": 112,
+  "examples": [
+   "junulo",
+   "fakulo",
+   "aktivulo",
+   "posteulo",
+   "antaŭulo"
+  ]
+ },
+ {
+  "affix": "-ado",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "act of",
+  "lemmaCount": 107,
+  "examples": [
+   "movado",
+   "agado",
+   "edukado",
+   "produktado",
+   "uzado"
+  ]
+ },
+ {
+  "affix": "-ejo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "place",
+  "lemmaCount": 82,
+  "examples": [
+   "lernejo",
+   "loĝejo",
+   "oficejo",
+   "preĝejo",
+   "retejo"
+  ]
+ },
+ {
+  "affix": "-ilo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "tool",
+  "lemmaCount": 69,
+  "examples": [
+   "armilo",
+   "komputilo",
+   "aviadilo",
+   "veturilo",
+   "flugilo"
+  ]
+ },
+ {
+  "affix": "-aro",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "collection",
+  "lemmaCount": 67,
+  "examples": [
+   "registaro",
+   "arbaro",
+   "vortaro",
+   "tendaro",
+   "homaro"
+  ]
+ },
+ {
+  "affix": "-ino",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "female",
+  "lemmaCount": 67,
+  "examples": [
+   "virino",
+   "edzino",
+   "patrino",
+   "filino",
+   "fratino"
+  ]
+ },
+ {
+  "affix": "sen-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "without, -less",
+  "lemmaCount": 65,
+  "examples": [
+   "sendependa",
+   "sendube",
+   "senpaga",
+   "senĉese",
+   "senfina"
+  ]
+ },
+ {
+  "affix": "-et-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": "little",
+  "lemmaCount": 61,
+  "examples": [
+   "eta",
+   "iomete",
+   "urbeto",
+   "monteto",
+   "libreto"
+  ]
+ },
+ {
+  "affix": "-ano",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "inhabitant",
+  "lemmaCount": 53,
+  "examples": [
+   "romano",
+   "kristano",
+   "aliancano",
+   "islamano",
+   "kamparano"
+  ]
+ },
+ {
+  "affix": "ek-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "begin, start",
+  "lemmaCount": 50,
+  "examples": [
+   "ekde",
+   "ekhavi",
+   "ekesti",
+   "ekkoni",
+   "ekscii"
+  ]
+ },
+ {
+  "affix": "-io",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "country",
+  "lemmaCount": 49,
+  "examples": [
+   "Francio",
+   "Germanio",
+   "Ĉinio",
+   "Japanio",
+   "Rusio"
+  ]
+ },
+ {
+  "affix": "-eg-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 45,
+  "examples": [
+   "ege",
+   "grandega",
+   "pordego",
+   "kolego",
+   "treege"
+  ]
+ },
+ {
+  "affix": "-ebla",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "-able",
+  "lemmaCount": 43,
+  "examples": [
+   "ebli",
+   "videbla",
+   "komprenebla",
+   "trovebla",
+   "uzebla"
+  ]
+ },
+ {
+  "affix": "ne-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "not",
+  "lemmaCount": 42,
+  "examples": [
+   "nekonata",
+   "nekutima",
+   "nelonge",
+   "neoficiala",
+   "necerta"
+  ]
+ },
+ {
+  "affix": "el-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "out of",
+  "lemmaCount": 41,
+  "examples": [
+   "eldoni",
+   "eliri",
+   "elstari",
+   "elteni",
+   "ellabori"
+  ]
+ },
+ {
+  "affix": "-ujo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "country of",
+  "lemmaCount": 37,
+  "examples": [
+   "Germanujo",
+   "Francujo",
+   "patrujo",
+   "Italujo",
+   "Egiptujo"
+  ]
+ },
+ {
+  "affix": "-ema",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "inclined to",
+  "lemmaCount": 36,
+  "examples": [
+   "emo",
+   "progresema",
+   "agresema",
+   "sentema",
+   "batalema"
+  ]
+ },
+ {
+  "affix": "al-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "to",
+  "lemmaCount": 36,
+  "examples": [
+   "alveni",
+   "aldoni",
+   "alporti",
+   "allogi",
+   "altiri"
+  ]
+ },
+ {
+  "affix": "re-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "again",
+  "lemmaCount": 33,
+  "examples": [
+   "reveni",
+   "ree",
+   "rekoni",
+   "reiri",
+   "reteni"
+  ]
+ },
+ {
+  "affix": "en-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "in",
+  "lemmaCount": 29,
+  "examples": [
+   "enhavi",
+   "eniri",
+   "enkonduki",
+   "enteni",
+   "enlanda"
+  ]
+ },
+ {
+  "affix": "-ismo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "-ism",
+  "lemmaCount": 25,
+  "examples": [
+   "naciismo",
+   "kristanismo",
+   "rasismo",
+   "marksismo",
+   "humanismo"
+  ]
+ },
+ {
+  "affix": "-inda",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "deserving of",
+  "lemmaCount": 24,
+  "examples": [
+   "rimarkinda",
+   "konsiderinda",
+   "mirinda",
+   "fidinda",
+   "menciinda"
+  ]
+ },
+ {
+  "affix": "-um-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 24,
+  "examples": [
+   "komunumo",
+   "proksimume",
+   "plenumi",
+   "kortumo",
+   "nomumi"
+  ]
+ },
+ {
+  "affix": "ĉef-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "main",
+  "lemmaCount": 22,
+  "examples": [
+   "ĉefurbo",
+   "ĉefministro",
+   "ĉefredaktoro",
+   "ĉefverko",
+   "ĉefepiskopo"
+  ]
+ },
+ {
+  "affix": "for-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "away",
+  "lemmaCount": 20,
+  "examples": [
+   "forlasi",
+   "foriri",
+   "forpeli",
+   "forpasi",
+   "forpreni"
+  ]
+ },
+ {
+  "affix": "-adi",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 19,
+  "examples": [
+   "agadi",
+   "restadi",
+   "vizitadi",
+   "vagadi",
+   "babiladi"
+  ]
+ },
+ {
+  "affix": "kun-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "together",
+  "lemmaCount": 19,
+  "examples": [
+   "kunlabori",
+   "kunlaboro",
+   "kunveni",
+   "kunporti",
+   "kunligi"
+  ]
+ },
+ {
+  "affix": "dis-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "apart",
+  "lemmaCount": 18,
+  "examples": [
+   "disvastiĝi",
+   "disvolvi",
+   "disvastigi",
+   "disde",
+   "disiĝi"
+  ]
+ },
+ {
+  "affix": "inter-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "between",
+  "lemmaCount": 18,
+  "examples": [
+   "internacia",
+   "interalie",
+   "interkonsento",
+   "intertempe",
+   "interŝanĝo"
+  ]
+ },
+ {
+  "affix": "-ido",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "offspring",
+  "lemmaCount": 14,
+  "examples": [
+   "latinida",
+   "Izraelido",
+   "ŝafido",
+   "bovido",
+   "anasido"
+  ]
+ },
+ {
+  "affix": "antaŭ-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "before",
+  "lemmaCount": 13,
+  "examples": [
+   "antaŭurbo",
+   "antaŭvidi",
+   "antaŭparolo",
+   "antaŭjuĝo",
+   "antaŭdiri"
+  ]
+ },
+ {
+  "affix": "sub-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "beneath, secondary",
+  "lemmaCount": 12,
+  "examples": [
+   "subskribi",
+   "subtera",
+   "subpremi",
+   "submara",
+   "subŝtato"
+  ]
+ },
+ {
+  "affix": "-estro",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "leader",
+  "lemmaCount": 10,
+  "examples": [
+   "urbestro",
+   "imperiestro",
+   "guberniestro",
+   "ŝtatestro",
+   "lernejestro"
+  ]
+ },
+ {
+  "affix": "-eble",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "-ably",
+  "lemmaCount": 9,
+  "examples": [
+   "kompreneble",
+   "supozeble",
+   "videble",
+   "kredeble",
+   "aŭdeble"
+  ]
+ },
+ {
+  "affix": "i-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 9,
+  "examples": [
+   "iu",
+   "iom",
+   "iam",
+   "io",
+   "ia"
+  ]
+ },
+ {
+  "affix": "tra-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "through",
+  "lemmaCount": 9,
+  "examples": [
+   "trairi",
+   "travivi",
+   "trapasi",
+   "trakuri",
+   "tranokti"
+  ]
+ },
+ {
+  "affix": "trans-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "across",
+  "lemmaCount": 9,
+  "examples": [
+   "transiri",
+   "transdoni",
+   "transpreni",
+   "transporti",
+   "translokiĝi"
+  ]
+ },
+ {
+  "affix": "-ad-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": "notable duration of an action",
+  "lemmaCount": 8,
+  "examples": [
+   "ade",
+   "presado",
+   "festado",
+   "rakontado",
+   "seksumado"
+  ]
+ },
+ {
+  "affix": "-igo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 8,
+  "examples": [
+   "daŭrigo",
+   "devigo",
+   "anstataŭigo",
+   "antaŭenigo",
+   "apartigo"
+  ]
+ },
+ {
+  "affix": "-iĝo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 8,
+  "examples": [
+   "edziĝo",
+   "disiĝo",
+   "disvastiĝo",
+   "asociiĝo",
+   "ekscitiĝo"
+  ]
+ },
+ {
+  "affix": "-ologio",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 8,
+  "examples": [
+   "psikologio",
+   "sociologio",
+   "etimologio",
+   "esperantologio",
+   "antropologio"
+  ]
+ },
+ {
+  "affix": "neni-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "negative correlative prefix",
+  "lemmaCount": 8,
+  "examples": [
+   "neniu",
+   "nenio",
+   "nenia",
+   "neniel",
+   "neniigi"
+  ]
+ },
+ {
+  "affix": "pra-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "great-",
+  "lemmaCount": 8,
+  "examples": [
+   "praulo",
+   "praa",
+   "praavo",
+   "praarbaro",
+   "praavino"
+  ]
+ },
+ {
+  "affix": "pri-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "about",
+  "lemmaCount": 8,
+  "examples": [
+   "priskribi",
+   "prizorgi",
+   "pritrakti",
+   "pristudi",
+   "pripensi"
+  ]
+ },
+ {
+  "affix": "ti-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 8,
+  "examples": [
+   "tiu",
+   "tio",
+   "tie",
+   "tiel",
+   "tiam"
+  ]
+ },
+ {
+  "affix": "-ant-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 7,
+  "examples": [
+   "loĝanto",
+   "batalanto",
+   "enloĝanto",
+   "sekvanto",
+   "aĉetanto"
+  ]
+ },
+ {
+  "affix": "-ero",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "element",
+  "lemmaCount": 7,
+  "examples": [
+   "monero",
+   "sukero",
+   "pasero",
+   "cirkulero",
+   "ĉenero"
+  ]
+ },
+ {
+  "affix": "bo-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "in-law",
+  "lemmaCount": 7,
+  "examples": [
+   "bofilo",
+   "bopatro",
+   "bofrato",
+   "boa",
+   "bofilino"
+  ]
+ },
+ {
+  "affix": "kontraŭ-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "against",
+  "lemmaCount": 7,
+  "examples": [
+   "kontraŭstari",
+   "kontraŭdiri",
+   "kontraŭleĝe",
+   "kontraŭjuda",
+   "kontraŭagi"
+  ]
+ },
+ {
+  "affix": "-ono",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "fraction",
+  "lemmaCount": 6,
+  "examples": [
+   "duono",
+   "triono",
+   "kvarono",
+   "dekono",
+   "kvinono"
+  ]
+ },
+ {
+  "affix": "-ope",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "collective numeral",
+  "lemmaCount": 6,
+  "examples": [
+   "unuopa",
+   "unuopulo",
+   "duope",
+   "unuope",
+   "duopa"
+  ]
+ },
+ {
+  "affix": "ĉi-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "universal correlative prefix",
+  "lemmaCount": 6,
+  "examples": [
+   "ĉiu",
+   "ĉiam",
+   "ĉio",
+   "ĉie",
+   "ĉiel"
+  ]
+ },
+ {
+  "affix": "nov-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "new",
+  "lemmaCount": 6,
+  "examples": [
+   "Novjorko",
+   "Nov-Zelando",
+   "novjaro",
+   "Nov-Hampŝiro",
+   "Nov-Ĵerzejo"
+  ]
+ },
+ {
+  "affix": "-aŭ",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 5,
+  "examples": [
+   "kontraŭ",
+   "ankoraŭ",
+   "hodiaŭ",
+   "baldaŭ",
+   "anstataŭ"
+  ]
+ },
+ {
+  "affix": "-ologo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "-ologist",
+  "lemmaCount": 5,
+  "examples": [
+   "psikologo",
+   "antropologo",
+   "esperantologo",
+   "ideologo",
+   "zoologo"
+  ]
+ },
+ {
+  "affix": "bio-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 5,
+  "examples": [
+   "biodiverseco",
+   "biografo",
+   "biokemio",
+   "biomaso",
+   "biosfero"
+  ]
+ },
+ {
+  "affix": "-el",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "correlative suffix of manner or degree",
+  "lemmaCount": 4,
+  "examples": [
+   "tiel",
+   "iel",
+   "neniel",
+   "ĉiel"
+  ]
+ },
+ {
+  "affix": "-es",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "correlative suffix of possession",
+  "lemmaCount": 4,
+  "examples": [
+   "ies",
+   "alies",
+   "ĉies",
+   "nenies"
+  ]
+ },
+ {
+  "affix": "-obla",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "fold",
+  "lemmaCount": 4,
+  "examples": [
+   "duobla",
+   "triobla",
+   "multobla",
+   "unuobla"
+  ]
+ },
+ {
+  "affix": "-u",
+  "kind": "suffix",
+  "grammaticalEnding": true,
+  "gloss": "correlative suffix of individuals",
+  "lemmaCount": 4,
+  "examples": [
+   "tiu",
+   "ĉiu",
+   "iu",
+   "neniu"
+  ]
+ },
+ {
+  "affix": "ge-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "both sexes (as: any sex)",
+  "lemmaCount": 4,
+  "examples": [
+   "gepatro",
+   "geknabo",
+   "gekuzo",
+   "gesinjoro"
+  ]
+ },
+ {
+  "affix": "mis-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 4,
+  "examples": [
+   "misuzo",
+   "mise",
+   "misfunkcio",
+   "misuzi"
+  ]
+ },
+ {
+  "affix": "-am",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "correlative suffix of time",
+  "lemmaCount": 3,
+  "examples": [
+   "tiam",
+   "ĉiam",
+   "iam"
+  ]
+ },
+ {
+  "affix": "-anto",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 3,
+  "examples": [
+   "peranto",
+   "adoleskanto",
+   "proparolanto"
+  ]
+ },
+ {
+  "affix": "-ĉjo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 3,
+  "examples": [
+   "Joĉjo",
+   "oĉjo",
+   "paĉjo"
+  ]
+ },
+ {
+  "affix": "-enda",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "required to",
+  "lemmaCount": 3,
+  "examples": [
+   "pagenda",
+   "farenda",
+   "solvenda"
+  ]
+ },
+ {
+  "affix": "-it-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 3,
+  "examples": [
+   "ilustrita",
+   "novnaskito",
+   "orita"
+  ]
+ },
+ {
+  "affix": "-njo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 3,
+  "examples": [
+   "panjo",
+   "avinjo",
+   "onjo"
+  ]
+ },
+ {
+  "affix": "-om",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 3,
+  "examples": [
+   "iom",
+   "tiom",
+   "neniom"
+  ]
+ },
+ {
+  "affix": "fi-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "shameful, immoral, corrupt, dissolute, dirty, slutty",
+  "lemmaCount": 3,
+  "examples": [
+   "fifama",
+   "fia",
+   "fiulo"
+  ]
+ },
+ {
+  "affix": "super-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "over-",
+  "lemmaCount": 3,
+  "examples": [
+   "superflua",
+   "superbazaro",
+   "superflui"
+  ]
+ },
+ {
+  "affix": "vic-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "vice-",
+  "lemmaCount": 3,
+  "examples": [
+   "vicprezidanto",
+   "vicreĝo",
+   "vicprezidento"
+  ]
+ },
+ {
+  "affix": "-aĉ-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "domaĉo",
+   "kriaĉi"
+  ]
+ },
+ {
+  "affix": "-al",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "tial",
+   "ial"
+  ]
+ },
+ {
+  "affix": "-eca",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "cifereca",
+   "homeca"
+  ]
+ },
+ {
+  "affix": "-ig-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": "-ify",
+  "lemmaCount": 2,
+  "examples": [
+   "saniga",
+   "troigo"
+  ]
+ },
+ {
+  "affix": "-iĝ-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": "to become",
+  "lemmaCount": 2,
+  "examples": [
+   "tutmondiĝo",
+   "elreviĝo"
+  ]
+ },
+ {
+  "affix": "-ita",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "gvidita",
+   "mirigita"
+  ]
+ },
+ {
+  "affix": "-ona",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "fraction",
+  "lemmaCount": 2,
+  "examples": [
+   "duona",
+   "kvarona"
+  ]
+ },
+ {
+  "affix": "-ont-",
+  "kind": "infix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "estonta",
+   "estonto"
+  ]
+ },
+ {
+  "affix": "-opo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "triopo",
+   "duopo"
+  ]
+ },
+ {
+  "affix": "ĉirkaŭ-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "ĉirkaŭiri",
+   "ĉirkaŭpreni"
+  ]
+ },
+ {
+  "affix": "de-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "depreni",
+   "deŝiri"
+  ]
+ },
+ {
+  "affix": "ekster-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "out-",
+  "lemmaCount": 2,
+  "examples": [
+   "eksterlanda",
+   "eksterleĝa"
+  ]
+ },
+ {
+  "affix": "ki-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "kio",
+   "kia"
+  ]
+ },
+ {
+  "affix": "kilo-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "kilometro",
+   "kilogramo"
+  ]
+ },
+ {
+  "affix": "per-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "peranto",
+   "perlabori"
+  ]
+ },
+ {
+  "affix": "sur-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 2,
+  "examples": [
+   "surmeti",
+   "surteriĝi"
+  ]
+ },
+ {
+  "affix": "vir-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "male",
+  "lemmaCount": 2,
+  "examples": [
+   "virbovo",
+   "virŝafo"
+  ]
+ },
+ {
+  "affix": "-icus",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "elektro"
+  ]
+ },
+ {
+  "affix": "-iko",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "lingvistiko"
+  ]
+ },
+ {
+  "affix": "-inta",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "unuiĝinta"
+  ]
+ },
+ {
+  "affix": "-logio",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "fonologio"
+  ]
+ },
+ {
+  "affix": "-mentum",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "instrumento"
+  ]
+ },
+ {
+  "affix": "-oido",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "alkaloido"
+  ]
+ },
+ {
+  "affix": "-ozo",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "-osis",
+  "lemmaCount": 1,
+  "examples": [
+   "tuberkulozo"
+  ]
+ },
+ {
+  "affix": "-tlān",
+  "kind": "suffix",
+  "grammaticalEnding": false,
+  "gloss": "place",
+  "lemmaCount": 1,
+  "examples": [
+   "Gvatemalo"
+  ]
+ },
+ {
+  "affix": "a-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "without",
+  "lemmaCount": 1,
+  "examples": [
+   "ateisto"
+  ]
+ },
+ {
+  "affix": "ali-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "an unofficial extension of the correlatives, based on the adjective <i class=\"Latn mention\" lang=\"eo\">alia</i> (“other”)",
+  "lemmaCount": 1,
+  "examples": [
+   "alies"
+  ]
+ },
+ {
+  "affix": "ĉiu-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "ĉiumatene"
+  ]
+ },
+ {
+  "affix": "eko-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "ekoregiono"
+  ]
+ },
+ {
+  "affix": "eks-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "eksa"
+  ]
+ },
+ {
+  "affix": "elektro-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "electro-",
+  "lemmaCount": 1,
+  "examples": [
+   "elektrotekniko"
+  ]
+ },
+ {
+  "affix": "fono-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "fonologio"
+  ]
+ },
+ {
+  "affix": "foto-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "fotosintezo"
+  ]
+ },
+ {
+  "affix": "kon-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "konsciiĝi"
+  ]
+ },
+ {
+  "affix": "mem-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": "self",
+  "lemmaCount": 1,
+  "examples": [
+   "memkomprenebla"
+  ]
+ },
+ {
+  "affix": "mono-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "monotona"
+  ]
+ },
+ {
+  "affix": "pre-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "prepozicio"
+  ]
+ },
+ {
+  "affix": "pro-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "proparolanto"
+  ]
+ },
+ {
+  "affix": "retro-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "retroiri"
+  ]
+ },
+ {
+  "affix": "virg-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "virga"
+  ]
+ },
+ {
+  "affix": "zo-",
+  "kind": "prefix",
+  "grammaticalEnding": false,
+  "gloss": null,
+  "lemmaCount": 1,
+  "examples": [
+   "zoologo"
+  ]
+ }
+]

@@ -1,0 +1,32 @@
+{
+  "lemmas": 20507,
+  "inBothLists": 9493,
+  "wikipediaOnly": 5507,
+  "tekstaroOnly": 5507,
+  "withGloss": 11366,
+  "withoutGloss": 9141,
+  "withPosFromWiktionary": 11368,
+  "withPosGuessedFromEnding": 8970,
+  "withoutPos": 169,
+  "formsOfAnotherLemma": 1473,
+  "withAffixBreakdown": 4364,
+  "byLevel": {
+    "1": 290,
+    "2": 340,
+    "3": 674,
+    "4": 2019,
+    "5": 3083,
+    "6": 3087,
+    "7": 11014
+  },
+  "withGlossByLevel": {
+    "1": 289,
+    "2": 337,
+    "3": 664,
+    "4": 1806,
+    "5": 2224,
+    "6": 1826,
+    "7": 4220
+  },
+  "wiktionaryLinesRead": 135198
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>esperanto-lexicon: 20,000 graded Esperanto words</title>
+  <meta name="description" content="An open Esperanto lexicon: 20,507 lemmas graded by frequency in two corpora, with English glosses, parts of speech and affix breakdowns. Search it here.">
+  <link rel="canonical" href="https://esperantaskanaduko.com/open-source/esperanto-lexicon/">
+  <link rel="icon" href="../../favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="../"><span class="star" aria-hidden="true">★</span> Esperanta Skanaduko · open source</a>
+  <nav aria-label="Project links"><a href="#search">Search</a><a href="#levels">Levels</a><a href="https://github.com/Esperanta-Skanaduko/esperanto-lexicon">GitHub</a></nav>
+</div></header>
+<main class="wrap">
+  <div class="hero">
+    <h1>esperanto-lexicon</h1>
+    <p class="lead">20,507 Esperanto lemmas, graded by how common they are in two corpora, with English glosses, parts of speech and the affix breakdown where Wiktionary states one. Open data for anyone building learning tools.</p>
+    <ul class="badges"><li>JSON and CSV</li><li>2 corpora</li><li>Rebuildable</li><li>Data CC BY-SA 4.0</li></ul>
+    <p><a class="btn" href="#search">Search the lexicon</a><a class="btn secondary" href="https://github.com/Esperanta-Skanaduko/esperanto-lexicon">Get the data</a></p>
+  </div>
+
+  <section id="search" aria-labelledby="search-h">
+    <h2 id="search-h">Search</h2>
+    <div class="card">
+      <div class="grid">
+        <div><label for="q">Word or English meaning</label><input id="q" type="search" placeholder="lern, school, mal-" autocomplete="off"></div>
+        <div><label for="level">Level</label>
+          <select id="level"><option value="">All levels</option><option value="1">1 · up to rank 500</option><option value="2">2 · up to 1,000</option><option value="3">3 · up to 2,000</option><option value="4">4 · up to 5,000</option><option value="5">5 · up to 10,000</option><option value="6">6 · up to 15,000</option><option value="7">7 · in one corpus only</option></select></div>
+        <div><label for="pos">Part of speech</label>
+          <select id="pos"><option value="">All</option><option>noun</option><option>verb</option><option>adj</option><option>adv</option><option>name</option><option>pron</option><option>prep</option><option>conj</option></select></div>
+      </div>
+      <p id="status" class="muted" role="status">Loading…</p>
+      <div class="table-scroll"><table>
+        <caption class="sr-only">Matching lemmas</caption>
+        <thead><tr><th scope="col">Lemma</th><th scope="col">Part of speech</th><th scope="col">Level</th><th scope="col">Meaning</th><th scope="col">Parts</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section id="levels" aria-labelledby="levels-h">
+    <h2 id="levels-h">How the levels work</h2>
+    <p>Each corpus (the Esperanto Wikipedia and the Tekstaro) has a ranked list of its 15,000 most frequent lemmas. A word's level comes from the <strong>less frequent</strong> of its two ranks, and a word in only one list is level 7. Requiring a word to be common in both keeps everyday words together.</p>
+    <div class="note"><strong>Frequency, not CEFR.</strong> Levels say what to learn first, not how hard a word is. Half of the lemmas (mostly rarer words and names) have no gloss yet, because Wiktionary has no entry for them; none is invented.</div>
+    <p>Data: <a href="https://github.com/Esperanta-Skanaduko/esperanto-lexicon/tree/main/data"><code>lexicon.json</code>, <code>lexicon.csv</code>, <code>affixes.json</code></a>. Sources and credit are in the <a href="https://github.com/Esperanta-Skanaduko/esperanto-lexicon/blob/main/ATTRIBUTION.md">attribution file</a>.</p>
+  </section>
+</main>
+<footer class="site"><div class="wrap">Part of <a href="../">Esperanta Skanaduko open source</a> · <a href="https://esperantaskanaduko.com/">esperantaskanaduko.com</a> · Code MIT, data CC BY-SA 4.0 (derived from Wiktionary).</div></footer>
+<script>
+  (async () => {
+    const status = document.getElementById('status');
+    const rows = document.getElementById('rows');
+    let lexicon = [];
+    try {
+      lexicon = await (await fetch('lexicon-lite.json')).json();
+    } catch (error) {
+      status.textContent = 'Could not load the lexicon: ' + error.message;
+      return;
+    }
+    const q = document.getElementById('q'), level = document.getElementById('level'), pos = document.getElementById('pos');
+    const normalize = (text) => text.toLowerCase().normalize('NFC').replace(/c[x]/g, 'ĉ').replace(/g[x]/g, 'ĝ').replace(/h[x]/g, 'ĥ').replace(/j[x]/g, 'ĵ').replace(/s[x]/g, 'ŝ').replace(/u[x]/g, 'ŭ');
+    const cell = (text) => { const td = document.createElement('td'); td.textContent = text; return td; };
+    const render = () => {
+      const needle = normalize(q.value.trim());
+      const matches = [];
+      for (const word of lexicon) {
+        if (level.value && String(word[2]) !== level.value) continue;
+        if (pos.value && word[1] !== pos.value) continue;
+        if (needle && !word[0].toLowerCase().includes(needle) && !word[3].toLowerCase().includes(needle) && !word[4].toLowerCase().includes(needle)) continue;
+        matches.push(word);
+      }
+      rows.replaceChildren(...matches.slice(0, 100).map((word) => {
+        const tr = document.createElement('tr');
+        const lemma = cell(word[0]); lemma.lang = 'eo'; lemma.style.fontWeight = '600';
+        tr.append(lemma, cell(word[1] ?? '?'), cell(String(word[2])), cell(word[3] || '-'), cell(word[4] || '-'));
+        return tr;
+      }));
+      status.textContent = matches.length + ' of ' + lexicon.length + ' lemmas' + (matches.length > 100 ? ' (showing the first 100)' : '') + '. Type cx, gx, hx, jx, sx or ux for ĉ ĝ ĥ ĵ ŝ ŭ.';
+    };
+    for (const control of [q, level, pos]) control.addEventListener('input', render);
+    render();
+  })();
+</script>
+</body>
+</html>

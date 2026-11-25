@@ -1,0 +1,32 @@
+[
+  {
+    "id": "wikipedia",
+    "description": "Top 15,000 lemmas of the Esperanto Wikipedia dump of 2023-03-01 (more than 43 million words)",
+    "page": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Esperanto/Wikipedia_2023",
+    "url": "https://en.wiktionary.org/w/index.php?title=Wiktionary:Frequency_lists/Esperanto/Wikipedia_2023&action=raw",
+    "license": "CC BY-SA 4.0",
+    "bytes": 501037,
+    "sha256": "7f164290701fb9cc06768687223db596d4fb6d82b4e294e5ab0257423fd7725e",
+    "fetchedAt": "2026-11-25"
+  },
+  {
+    "id": "tekstaro",
+    "description": "Top 15,000 lemmas of the Tekstaro de Esperanto dump of 2023-03-15 (more than 10 million words)",
+    "page": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Esperanto/Tekstaro_2023",
+    "url": "https://en.wiktionary.org/w/index.php?title=Wiktionary:Frequency_lists/Esperanto/Tekstaro_2023&action=raw",
+    "license": "CC BY-SA 4.0",
+    "bytes": 505028,
+    "sha256": "39de456f9a25f80236a25486ff56c7ee9d85addeb1e2932f7e71f4627cff3ac7",
+    "fetchedAt": "2026-11-25"
+  },
+  {
+    "id": "wiktionary",
+    "description": "Wiktionary Esperanto entries, extracted to JSON Lines by wiktextract",
+    "page": "https://kaikki.org/dictionary/Esperanto/index.html",
+    "url": "https://kaikki.org/dictionary/Esperanto/kaikki.org-dictionary-Esperanto.jsonl",
+    "license": "CC BY-SA 4.0 and GFDL (Wiktionary text)",
+    "bytes": 173566015,
+    "sha256": "3b2dc933f034ebcfc9d38cd3c200144f55d029a8df2d9e94302cea9f48aa9e61",
+    "fetchedAt": "2026-11-25"
+  }
+]
